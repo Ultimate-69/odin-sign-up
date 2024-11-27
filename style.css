@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+body {
+    font-family: Arial;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    width: 400px;
+    height: 100vh;
+    object-fit: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+.photo-text {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    left: 6vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.img {
+    width: 400px;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    color: white;
+    top: 35vh;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Parkinsans, Arial;
+}
